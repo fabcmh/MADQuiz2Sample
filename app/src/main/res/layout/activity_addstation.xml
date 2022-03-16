@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Enter Station Code" />
+            android:hint="Enter Station Code"
+            android:freezesText="true"/>
 
         <TextView
             android:id="@+id/textViewStationName"
@@ -34,7 +35,8 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Enter Station Name" />
+            android:hint="Enter Station Name"
+            android:freezesText="true"/>
 
         <TextView
             android:id="@+id/textViewLineName"
