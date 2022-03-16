@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewStationCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Station Code" />
+
+        <EditText
+            android:id="@+id/editTextStationCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Station Code" />
+
+        <TextView
+            android:id="@+id/textViewStationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Station Name" />
+
+        <EditText
+            android:id="@+id/editTextStationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Station Name" />
+
+        <TextView
+            android:id="@+id/textViewLineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Line Name" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLEAR" />
+
+    </LinearLayout>
+</layout>

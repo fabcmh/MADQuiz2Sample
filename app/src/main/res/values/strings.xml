@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="mrtLine_array">
+        <item>North South Line</item>
+        <item>North East Line</item>
+        <item>East West Line</item>
+        <item>Circle Line</item>
+        <item>Downtown Line</item>
+        <item>Thomson-East Coast Line</item>
+    </string-array>
+</resources>
